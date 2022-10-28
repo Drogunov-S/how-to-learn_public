@@ -69,7 +69,7 @@
 .header__square-pic {
   background-color: #2f80ed;
   position: absolute;
-  top: 0;
+  top: 64px;
   right: 0;
   height: 568px;
   width: 568px;
@@ -90,7 +90,7 @@
   width: 80%;
 }
 
-.two-columns_brief {
+.two-columns__brief {
   margin: 0;
   color: #2f80ed;
   width: 175px;
@@ -105,6 +105,8 @@
 }
 
 .two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
   margin: 0;
   margin-bottom: 30px;
 }
@@ -205,7 +207,6 @@
 }
 
 .feynman__subtitle {
-  display: flex;
   line-height: 51px;
   font-size: 36px;
   margin: 70px auto 0;
@@ -257,7 +258,7 @@
   justify-content: space-between;
 }
 
-.footer_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
