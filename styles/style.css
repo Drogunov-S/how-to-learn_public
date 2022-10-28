@@ -22,15 +22,15 @@
   background-size: contain;
 }
 
-.logo_place_footer {
-  background-image: url('../images/logo_place_footer.svg');
-}
-
 .logo_place_header {
   background-image: url('../images/logo_place_header.svg');
   position: absolute;
   top: 30px;
   left: 64px;
+}
+
+.logo_place_footer {
+  background-image: url('../images/logo_place_footer.svg');
 }
 
 .header__title {
@@ -84,7 +84,6 @@
 }
 
 .two-columns {
-  padding: 100px 0;
   display: flex;
   justify-content: space-between;
   width: 80%;
